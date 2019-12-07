@@ -2,17 +2,16 @@
 
 ![Othello gif](../assets/othello.gif)
 
-This is an Othello game with an AI that is able to see 5 turns in the future and place a piece in the best position using  alpha-beta pruning, an optimized version of the min-max algorithm. 
+This is an Othello game with an AI that is able to see 5 turns in the future and place a piece in the best position using  alpha-beta pruning, an optimized version of the min-max algorithm.
 
-The min-max algorithm is a decision making algorithm that tries to find the optimal move, assuming that the opponent also plays optimally. It is often used in turn based, 2 player games. 
+The min-max algorithm is a decision making algorithm that tries to find the optimal move, assuming that the opponent also plays optimally. It is often used in turn based, 2 player games.
 
-Because the min-max algorithm checks every possible move, it is not optimized at all. Alpha-beta pruning solves this problem by cutting of branches when a better move already exists, reducing  computation time greatly. 
+Because the min-max algorithm checks every possible move, it is not optimized at all. Alpha-beta pruning solves this problem by cutting of branches when a better move already exists, reducing  computation time greatly.
 
 ## Installation
 
 1. Download the repository
-2. Run the program by clicking on *Othello.exe*
-> **If the screen is to big please change the console font size and restart the game.**     
+2. Run the program by clicking on *Othello2.exe*
 
 ## How To Play
 
@@ -31,4 +30,3 @@ Choose where you want to play a piece (you can place pieces on the red marks) wi
 ## Roadmap
 
 See [open issues](https://github.com/k390983/Othello/issues) for planned features and issues.
-

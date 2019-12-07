@@ -1,5 +1,5 @@
 
-//gcc main.c -lraylib
+//gcc main.c -lraylib -o Othello2
 
 #include <stdlib.h>
 #include <stdio.h>
